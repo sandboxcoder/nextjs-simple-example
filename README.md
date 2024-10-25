@@ -1,4 +1,4 @@
-This is the `starfield-nexus` [Next.js](https://nextjs.org) project 
+This is the `starfield-nexus` [Next.js](https://nextjs.org) project which is currently just a testbed for React.
 
 ## Getting Started
 
