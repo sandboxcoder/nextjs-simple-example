@@ -1,3 +1,5 @@
+import SampleComponent from "../components/SampleComponent";
+
 function MyButton() {
   return (
     <button>
@@ -29,6 +31,7 @@ export default function MyApp() {
       <h1>Welcome to my app</h1>
       <MyButton />
       <ul>{listItems}</ul>
+      <ul><SampleComponent/></ul>
     </div>
   );
 }
