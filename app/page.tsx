@@ -1,37 +1,14 @@
 import SampleComponent from "../components/SampleComponent";
+import MyButton from "../components/MyButton";
+import VegetableComponent from "../components/VegetableComponent";
 
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
-
-const products = [
-  { title: 'Cabbage', isFruit: false, id: 1 },
-  { title: 'Garlic', isFruit: false, id: 2 },
-  { title: 'Apple', isFruit: true, id: 3 },
-];
-
-export default function MyApp() {
-  const listItems = products.map(product =>
-    <li
-      key={product.id}
-      style={{
-        color: product.isFruit ? 'magenta' : 'darkgreen'
-      }}
-    >
-      {product.title}
-    </li>
-  );
-  
+export default function StarfieldApp() {
   return (
     <div>
       <h1>Welcome to my app</h1>
-      <MyButton />
-      <ul>{listItems}</ul>
+      <ul><VegetableComponent/></ul>
       <ul><SampleComponent/></ul>
+      <MyButton />
     </div>
   );
 }
