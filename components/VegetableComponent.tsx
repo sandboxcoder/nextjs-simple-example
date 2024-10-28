@@ -1,6 +1,5 @@
 'use client'
 
-import { list } from 'postcss';
 import React, {Component} from 'react';
 
 class VegetableComponent extends Component{
