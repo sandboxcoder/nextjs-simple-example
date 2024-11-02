@@ -16,3 +16,8 @@
     color: black; 
     border: 2px solid #04AA6D;
   }
+
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }

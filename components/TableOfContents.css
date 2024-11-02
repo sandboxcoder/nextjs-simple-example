@@ -1,0 +1,41 @@
+nav {
+    width: 220px;
+    min-width: 220px;
+    padding: 16px;
+    align-self: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+    max-height: calc(100vh - 70px);
+    overflow: auto;
+    margin-top: 150px;
+  }
+  
+  nav ul li {
+    margin-bottom: 15px;
+  }
+
+.lg {
+	margin-top: -4rem;
+}
+
+.z-10 {
+	z-index: 10;
+}
+.sidebar-container {
+	display: contents;
+}
+
+.sidebar {
+	flex-direction: column; /* RNO - I added this */
+	width: 100%;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    /*background-color: #111;*/ /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
