@@ -2,7 +2,7 @@ import SampleComponent from "../components/SampleComponent";
 import MyButton from "../components/MyButton";
 import VegetableComponent from "../components/VegetableComponent";
 import TableOfContents from '../components/TableOfContents';
-
+import FolderIcon from '../components/FolderIcon';
 
 export default function StarfieldApp() {
   return (
@@ -14,6 +14,7 @@ export default function StarfieldApp() {
         <ul><VegetableComponent/></ul>
         <ul><SampleComponent message={"test"}/></ul>
         <MyButton />
+        <FolderIcon />
       </div>
     </div>
   );
