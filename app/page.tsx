@@ -13,7 +13,7 @@ export default function StarfieldApp() {
         <h1>Welcome to my app</h1>
         <ul><VegetableComponent/></ul>
         <ul><SampleComponent message={"test"}/></ul>
-        <br/><StateExample message={'State'}/>
+        <br/><StateExample message={'State Example'}/>
         <MyButton />
       </div>
     </div>

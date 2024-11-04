@@ -9,6 +9,7 @@ interface StateExampleProps {
 interface StateExampleData
 {
     greeting: string;
+    count: number;
 }
 
 class StateExample extends Component<StateExampleProps, StateExampleData> {
@@ -19,6 +20,7 @@ class StateExample extends Component<StateExampleProps, StateExampleData> {
         this.state = {
             greeting:
                 "Click the button to receive a greeting!",
+            count: 0
         };
 
         // Binding this keyword
@@ -26,9 +28,11 @@ class StateExample extends Component<StateExampleProps, StateExampleData> {
     }
 
     updateState() {
-        // Changing state
-        this.setState({
-            greeting: "sandboxcoder welcomes you !!",
+        this.setState((prevState) => {
+            return {
+                count: prevState.count + 1,
+                greeting: "sandboxcoder welcomes you !!"
+            };
         });
     }
 
@@ -36,7 +40,7 @@ class StateExample extends Component<StateExampleProps, StateExampleData> {
         return (
             <div>
                 <h2>Greetings {this.props.message} Portal</h2>
-                <p>{this.state.greeting}</p>
+                <p>{this.state.greeting} Clicked {this.state.count} times</p>
 
                 {/* Set click handler */}
                 <button onClick={this.updateState}>
