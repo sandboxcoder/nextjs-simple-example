@@ -4,14 +4,20 @@ import Image from 'next/image';
 import React, {Component} from 'react';
 import folder from '../app/images/folder-svgrepo-com.svg';
 
-console.log("FOLDER:" + JSON.stringify(folder));
+interface StylingProps
+{
+    className : string;
+}
 
-const FolderIcon = () => {
-    return (
-        <div>
-            <Image src={folder} alt='folder icon' width = {32} height = {32}/>
-        </div>
-    );
+class FolderIcon extends Component<StylingProps>
+{
+    render() {
+        return (
+            <div>
+                <Image src={folder} alt='folder icon' width = {32} height = {32} className={this.props.className} />
+            </div>
+        );
+    }
 }
 
 export default FolderIcon;

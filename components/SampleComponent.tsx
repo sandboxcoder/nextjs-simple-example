@@ -17,7 +17,7 @@ class SampleComponent extends Component<MyProps, MyState>{
   render() {
     return (
       <div>
-        Test component
+        Test component {this.props.message}
       </div>
     );
   }

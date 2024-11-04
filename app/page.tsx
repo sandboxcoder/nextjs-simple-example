@@ -14,7 +14,6 @@ export default function StarfieldApp() {
         <ul><VegetableComponent/></ul>
         <ul><SampleComponent message={"test"}/></ul>
         <MyButton />
-        <FolderIcon />
       </div>
     </div>
   );
