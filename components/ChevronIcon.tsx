@@ -14,7 +14,7 @@ class ChevronIcon extends Component<StylingProps>
     render() {
         return (
             <div>
-                <Image src={icon} alt='folder icon' width = {32} height = {32} className={this.props.className}/>
+                <Image src={icon} alt='icon' width = {16} height = {16} className={this.props.className}/>
             </div>
         );
     }

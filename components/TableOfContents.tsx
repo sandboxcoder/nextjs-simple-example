@@ -6,9 +6,11 @@ function TableOfContents() {
     <div className="sidebar-container">
         <div className='sidebar'>
           <Link href="/">Home</Link>
+          <br /><Link href="../dashboard/folderExample">Folders</Link>
           <br /><Link href="../dashboard/boardGame">Board Game</Link>
         </div>
     </div>
   )
 }
+
 export default TableOfContents

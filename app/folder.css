@@ -1,0 +1,24 @@
+.py-1 {
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+}
+
+.gap-1\.5 {
+	gap: .375rem;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.flex {
+	display: flex;
+}
+
+.p-1 {
+	padding: .25rem;
+}
+
+.-m-1 {
+	margin: -.25rem;
+}
