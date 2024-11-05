@@ -1,4 +1,4 @@
-This is the `starfield-nexus` [Next.js](https://nextjs.org) project which is currently just a testbed for React.
+This is the `nextjs-reactjs-simple-project` [Next.js](https://nextjs.org) project which is currently a collection of simple examples in reactjs. The focus is on core ReactJS stuff (such as recursive components) rather then flashy visuals.
 
 ## Getting Started
 
