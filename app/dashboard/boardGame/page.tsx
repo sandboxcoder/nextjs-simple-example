@@ -6,7 +6,7 @@ export default function StarfieldApp() {
   return (
     <div>
       <div className="main">
-        <h1>BoardGame</h1>
+        <h1>Vegetables (Board Game is TBD)</h1>
         <TableOfContents />
         <ul><VegetableComponent/></ul>
       </div>
