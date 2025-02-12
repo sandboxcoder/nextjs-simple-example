@@ -3,6 +3,7 @@ import MyButton from "../components/MyButton";
 import VegetableComponent from "../components/VegetableComponent";
 import TableOfContents from '../components/TableOfContents';
 import StateExample from "@/components/StateExample";
+import NewPost from "@/components/TextEntry";
 
 export default function StarfieldApp() {
   return (
@@ -15,6 +16,7 @@ export default function StarfieldApp() {
         <ul><SampleComponent message={"test"}/></ul>
         <br/><StateExample message={'State Example'}/>
         <MyButton />
+        <p/><NewPost/>
       </div>
     </div>
   );
